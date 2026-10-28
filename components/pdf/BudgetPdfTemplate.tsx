@@ -34,7 +34,9 @@ export const BudgetPdfTemplate: React.FC<BudgetPdfProps> = ({ budget, profile })
         </View>
         <View style={{ width: '40%', alignItems: 'flex-end' }}>
           <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#2563eb' }}>{budget.numero_presupuesto}</Text>
-          <Text style={{ color: '#6b7280', marginTop: 2 }}>Fecha: {new Date(budget.created_at).toLocaleDateString('es-AR')}</Text>
+          <Text style={{ color: '#6b7280', marginTop: 2 }}>
+            Fecha: {new Date(budget.created_at || Date.now()).toLocaleDateString('es-AR')}
+          </Text>
           {profile.alias_cbu ? <Text style={{ fontSize: 8, color: '#4b5563', marginTop: 4 }}>Alias/CBU: {profile.alias_cbu}</Text> : null}
         </View>
       </View>
