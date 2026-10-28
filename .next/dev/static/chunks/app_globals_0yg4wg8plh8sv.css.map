@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///workspaces/presupuestador-SaaS/app/globals.css"],"sourcesContent":["/* Reseteo básico de CSS */\n* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n}\n\nbody {\n  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;\n  background-color: #f3f4f6;\n  color: #1f2937;\n  padding: 20px;\n}"],"names":[],"mappings":"AACA;;;;;;AAMA"}}]
+}
